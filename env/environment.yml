@@ -1,0 +1,8 @@
+name: mingl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - mingle-hl==0.1.0

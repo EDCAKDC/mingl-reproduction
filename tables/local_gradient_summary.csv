@@ -1,0 +1,12 @@
+metric,value
+n_all_cells,21232
+n_follicle_relevant,3455
+actual_score_iqr,6.077199155841077e-17
+score_range,41.446531675892814
+fraction_exact_zero_scores,0.4920403165033911
+fraction_both_follicle_probs_tiny,0.7639883195177091
+median_nearest_neighbor_distance,15.264337522473747
+range_normalized_gradient_median,0.047130499798452276
+range_normalized_gradient_mean,0.05365261057957247
+range_normalized_gradient_p95,0.13134180038368418
+range_normalized_gradient_p99,0.17066415229305099

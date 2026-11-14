@@ -1,0 +1,29 @@
+# Large/raw CODEX inputs and outputs
+data/
+results/
+*.h5ad
+*.h5
+*.hdf5
+*.parquet
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.pt
+*.ckpt
+*.log
+*per_cell*.csv
+*cell_predictions*.csv
+*gradient_cells*.csv
+
+# Python and notebook state
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+.env
+
+# Local machine files
+.DS_Store
+Thumbs.db

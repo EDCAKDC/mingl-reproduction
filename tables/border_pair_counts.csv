@@ -1,0 +1,75 @@
+neighborhood_1,neighborhood_2,both,only_1,only_2,shared_cell_types
+Outer Follicle,Inner Follicle,174,1984,1297,3
+Transit Amplifying Zone,Secretory Epithelial,173,1109,1329,8
+Transit Amplifying Zone,Plasma Cell Enriched,155,1127,5285,8
+Plasma Cell Enriched,CD8+ T Enriched IEL,98,5342,594,4
+Stroma & Innate Immune,Stroma,92,330,622,4
+Plasma Cell Enriched,Adatpive Immune Enriched,82,5358,434,9
+Mature Epithelial,Transit Amplifying Zone,79,1668,1203,2
+Innate Immune Enriched,Plasma Cell Enriched,77,692,5363,5
+Transit Amplifying Zone,CD8+ T Enriched IEL,56,1226,636,3
+Outer Follicle,Plasma Cell Enriched,53,2105,5387,3
+Mature Epithelial,CD8+ T Enriched IEL,47,1700,645,2
+Microvasculature,Stroma,47,718,667,3
+Mature Epithelial,Glandular Epithelial,42,1705,623,2
+Mature Epithelial,Secretory Epithelial,42,1705,1460,2
+Glandular Epithelial,Secretory Epithelial,41,624,1461,3
+Smooth Muscle & Innate Immune,Smooth Muscle,40,864,1081,2
+Plasma Cell Enriched,Smooth Muscle & Innate Immune,38,5402,866,2
+Outer Follicle,Adatpive Immune Enriched,38,2120,478,2
+Macrovasculature,Innervated Smooth Muscle,37,453,217,3
+Plasma Cell Enriched,Microvasculature,37,5403,728,1
+Macrovasculature,Smooth Muscle,35,455,1086,2
+Secretory Epithelial,CD8+ T Enriched IEL,33,1469,659,3
+Transit Amplifying Zone,Glandular Epithelial,31,1251,634,2
+Innate Immune Enriched,Microvasculature,29,740,736,2
+Microvasculature,Macrovasculature,23,742,467,1
+Plasma Cell Enriched,Secretory Epithelial,23,5417,1479,1
+Smooth Muscle & Innate Immune,Innervated Stroma,22,882,324,2
+Smooth Muscle & Innate Immune,Innervated Smooth Muscle,22,882,232,1
+Innate Immune Enriched,Adatpive Immune Enriched,21,748,495,0
+Plasma Cell Enriched,Glandular Epithelial,21,5419,644,1
+Stroma & Innate Immune,Plasma Cell Enriched,20,402,5420,1
+Mature Epithelial,Plasma Cell Enriched,19,1728,5421,1
+Smooth Muscle,Innervated Smooth Muscle,17,1104,237,1
+Mature Epithelial,CD66+ Mature Epithelial,16,1731,1932,1
+Smooth Muscle & Innate Immune,Macrovasculature,16,888,474,1
+CD8+ T Enriched IEL,CD66+ Mature Epithelial,16,676,1932,1
+Stroma & Innate Immune,Smooth Muscle & Innate Immune,15,407,889,1
+Plasma Cell Enriched,CD66+ Mature Epithelial,15,5425,1933,1
+Innate Immune Enriched,Innervated Stroma,14,755,332,0
+Glandular Epithelial,CD8+ T Enriched IEL,13,652,679,1
+Innate Immune Enriched,Stroma,12,757,702,0
+Plasma Cell Enriched,Innervated Stroma,11,5429,335,0
+Stroma & Innate Immune,Innervated Stroma,11,411,335,0
+Innate Immune Enriched,Smooth Muscle & Innate Immune,11,758,893,0
+Adatpive Immune Enriched,Smooth Muscle & Innate Immune,9,507,895,0
+Adatpive Immune Enriched,Microvasculature,7,509,758,0
+Stroma & Innate Immune,Microvasculature,7,415,758,0
+Transit Amplifying Zone,Innate Immune Enriched,6,1276,763,0
+Transit Amplifying Zone,CD66+ Mature Epithelial,6,1276,1942,0
+Secretory Epithelial,CD66+ Mature Epithelial,5,1497,1943,0
+Stroma & Innate Immune,Adatpive Immune Enriched,5,417,511,0
+CD8+ T Enriched IEL,Adatpive Immune Enriched,4,688,512,0
+Innate Immune Enriched,Stroma & Innate Immune,4,765,418,0
+Innervated Stroma,Stroma,4,342,710,0
+Macrovasculature,Stroma,4,486,710,0
+Adatpive Immune Enriched,CD66+ Mature Epithelial,4,512,1944,0
+Stroma & Innate Immune,Innervated Smooth Muscle,3,419,251,0
+Outer Follicle,Macrovasculature,3,2155,487,0
+Glandular Epithelial,CD66+ Mature Epithelial,3,662,1945,0
+Innervated Stroma,Innervated Smooth Muscle,3,343,251,0
+Outer Follicle,Microvasculature,3,2155,762,0
+Microvasculature,Innervated Stroma,2,763,344,0
+Innate Immune Enriched,CD66+ Mature Epithelial,2,767,1946,0
+Stroma & Innate Immune,Macrovasculature,2,420,488,0
+Transit Amplifying Zone,Microvasculature,2,1280,763,0
+Stroma & Innate Immune,Outer Follicle,1,421,2157,0
+Outer Follicle,Innervated Stroma,1,2157,345,0
+Transit Amplifying Zone,Adatpive Immune Enriched,1,1281,515,0
+Innate Immune Enriched,Outer Follicle,1,768,2157,0
+Plasma Cell Enriched,Macrovasculature,1,5439,489,0
+Plasma Cell Enriched,Innervated Smooth Muscle,1,5439,253,0
+Smooth Muscle & Innate Immune,Stroma,1,903,713,0
+CD66+ Mature Epithelial,Microvasculature,1,1947,764,0
+Adatpive Immune Enriched,Stroma,1,515,713,0
