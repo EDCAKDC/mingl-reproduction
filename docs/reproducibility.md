@@ -46,6 +46,13 @@ The first script reads the large merged CSV in chunks and writes a much smaller 
 
 The spatial mixing check uses **10 other cells**, excluding the cell itself. The MINGL centroid/GMM routines use the installed package's `k=10` semantics. The gradient analysis uses `k=20`, five clusters, `random_state=42`, and `use_quantiles=False`. Those choices matter when comparing results against different versions of the manuscript.
 
+### Checks and interpretation
+
+- `analyze_mingl_borders.py` prints **descriptive** candidate-border counts at probability cutoffs 0.20, 0.25, and 0.30. All saved figures and originally reported counts still use the 0.25 cutoff. This sensitivity output is a newly added check, **not a rerun or independent validation**.
+- `fix_mingl_local_gradient.py` checks that scores, raw gradients, probabilities, score range, and median neighbor distance are finite and that normalization denominators are positive. Its alternative display scales the previously fitted raw gradient by `median_neighbor_distance / (max(Score) - min(Score))`.
+- The plotting filter `max(P_inner, P_outer) > 0.25` affects **displayed points only**, not which cells were included in the local regression. The output is an exploratory diagnostic, not a replacement for the official MINGL score or published figure.
+- To verify new analytical results after these documentation and script improvements, **rerun the scripts with the original data locally**. No new dataset-level measurements are claimed from the code-only updates.
+
 ## What is and is not in this GitHub project
 
 Included: analysis scripts written for this reproduction, a summary of actual results, small aggregate CSVs, and selected PNG figures.
