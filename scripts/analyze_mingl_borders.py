@@ -32,6 +32,14 @@ print("Cells:", n)
 print("Candidate border cells:", border.sum())
 print("Candidate fraction:", border.mean())
 
+# Sensitivity check only: report how the candidate fraction changes
+# with the chosen probability cutoff. The published 0.25 results
+# and downstream plots below remain unchanged.
+print("\n=== THRESHOLD SENSITIVITY (DESCRIPTIVE) ===")
+for cutoff in (0.20, 0.25, 0.30):
+    n_candidates = int(((p > cutoff).sum(axis=1) >= 2).sum())
+    print(f"cutoff={cutoff:.2f}: candidates={n_candidates} ({n_candidates / n:.2%})")
+
 # Spatial neighbors: 10 other cells, excluding self
 xy = obs[["x", "y"]].to_numpy(dtype=float)
 labels = obs["Neighborhood"].astype(str).to_numpy()
