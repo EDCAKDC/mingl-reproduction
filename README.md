@@ -33,6 +33,8 @@ Among the ten nearest *other* cells, the mean proportion carrying a different or
 
 This is an internal consistency check: the original neighborhood annotations contribute to MINGL's probabilities and also to the mixing measure. It should not be treated as independent validation of biological boundaries.
 
+The **0.25 membership cutoff** is a descriptive choice, not a validated boundary threshold. The 9.12% figure may change with that cutoff; checking sensitivity to the threshold and comparing against independent boundary annotations would be needed before evaluating boundary-detection performance.
+
 ### Which neighborhoods share cells?
 
 With both probabilities greater than 0.25, the largest pairs were:
@@ -72,6 +74,8 @@ The official `steepness_score` function returned **5.1316** (normalized slope: *
 The initial local-gradient figure had unstable IQR normalization. Across all 21,232 cells, the score's actual interquartile range was only **6.08 × 10⁻¹⁷**; approximately **49.2%** of scores were exactly zero and **76.4%** of cells had a combined Inner/Outer probability below 10⁻⁸. The IQR denominator was effectively zero, inflating the default display scale.
 
 I therefore re-expressed the previously calculated raw gradient magnitudes using the **full score range** and displayed only cells with `max(P_inner, P_outer) > 0.25`. This produced a readable exploratory figure of 3,455 follicle-relevant cells. Their range-normalized gradient had median **0.0471** and 99th percentile **0.1707**.
+
+For reproducibility, the visualization rescales each existing raw gradient as `raw_gradient × median_nearest_neighbor_distance / (max(Score) - min(Score))`. The neighborhood probabilities and local regression fits were **not recalculated**. This was a display diagnostic for a sparse neighborhood pair, not a replacement for MINGL's default normalization.
 
 ![Range-normalized Inner/Outer Follicle local gradient, enlarged view](figures/local_gradient_corrected_zoom.png)
 
