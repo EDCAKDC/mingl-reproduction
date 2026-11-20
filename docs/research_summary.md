@@ -42,6 +42,8 @@ The fraction of MINGL multi-membership candidates increased with the amount of l
 
 The pattern is compatible with MINGL's intended interpretation, but the two analyses share the original neighborhood labels. The check therefore tests internal spatial coherence rather than external biological validity.
 
+**Threshold sensitivity (code-only follow-up):** The candidate definition depends on the `P > 0.25` cutoff. The analysis script now prints candidate counts at 0.20, 0.25, and 0.30 as a descriptive check. Those extra counts have **not been run or reported as new results here**. An external boundary reference and tests across donors would still be required for validation.
+
 ## Step 3: Pairwise neighborhood interfaces
 
 I enumerated pairs of neighborhood probabilities that simultaneously exceeded 0.25. The five highest pair counts were:
