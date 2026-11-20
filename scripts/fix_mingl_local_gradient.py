@@ -49,7 +49,14 @@ nn_dist, _ = cKDTree(xy).query(
 )
 median_nn = np.median(nn_dist[:, 1])
 
-assert score_range > 0
+if not np.isfinite(score).all() or not np.isfinite(raw_gradient).all():
+    raise ValueError("Non-finite score or raw-gradient values in input CSV")
+if not np.isfinite(p).all():
+    raise ValueError("Non-finite neighborhood probabilities in AnnData")
+if not np.isfinite(score_range) or score_range <= 0:
+    raise ValueError("Score range must be finite and positive for normalization")
+if not np.isfinite(median_nn) or median_nn <= 0:
+    raise ValueError("Median nearest-neighbor distance must be finite and positive")
 norm_gradient = (
     raw_gradient * median_nn / score_range
 )
